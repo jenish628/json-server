@@ -1,0 +1,54 @@
+{
+  "Intro": {
+    "Name": "jenish",
+    "Email": "j@j.com",
+    "Phone": "9862239949",
+    "Address": "kathmandu"
+  },
+  "Experience": [
+    {
+      "id": 1,
+      "Institution": "cosmos",
+      "StartDate": "2015",
+      "EndDate": "2019"
+    },
+    {
+      "Institution": "test",
+      "StartDate": "test",
+      "EndDate": "test",
+      "id": 2
+    },
+    {
+      "Institution": "db",
+      "StartDate": "5/2018",
+      "EndDate": "till now",
+      "id": 3
+    },
+    {
+      "Institution": "sabja",
+      "StartDate": "sdaasf",
+      "EndDate": "asfasas",
+      "id": 4
+    }
+  ],
+  "Education": [
+    {
+      "id": 1,
+      "Institution": "Cosmos",
+      "Course": "ComputerScience",
+      "Grade": "3.4"
+    },
+    {
+      "Institution": "db",
+      "Course": "python ",
+      "Grade": "3.5",
+      "id": 2
+    },
+    {
+      "Institution": "test",
+      "Course": "test",
+      "Grade": "test",
+      "id": 3
+    }
+  ]
+}
