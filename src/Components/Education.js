@@ -14,7 +14,6 @@ export default function Education() {
         console.log(edu.data[0]);
     }
     const deleteEducation = async (event, id) => {
-        event.persist();
         await axios.delete(`http://localhost:5000/Education/${id}`).then(data_ => {
             getData();
         })
@@ -25,20 +24,20 @@ export default function Education() {
         <>
             <>
                 {data.map((ex) => (
+                    <>
                     <ul>
                         <li>INSTITUTION-NAME:   {ex.Institution}</li>
                         <li>COURSE: {ex.Course}</li>
                         <li>GRADE: {ex.Grade}</li>
                     </ul>
+                    <button type="submit"
+                    onClick={e => deleteEducation(e, ex.id)}
+                > DELETE </button>
+                    </>
                 )) }
                 
                 <Link to={'/addedu'}> ADD </Link>
-                <button
-                    variant="contained"
-                    color="primary"
-                    size="large"
-                    onClick={deleteEducation}
-                > DELETE </button>
+                
            
             </> 
         </>

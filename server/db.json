@@ -37,18 +37,6 @@
       "Institution": "Cosmos",
       "Course": "ComputerScience",
       "Grade": "3.4"
-    },
-    {
-      "Institution": "db",
-      "Course": "python ",
-      "Grade": "3.5",
-      "id": 2
-    },
-    {
-      "Institution": "test",
-      "Course": "test",
-      "Grade": "test",
-      "id": 3
     }
   ]
 }
